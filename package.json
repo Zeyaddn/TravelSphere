@@ -1,18 +1,17 @@
 {
-  "homepage": "https://Zeyaddn.github.io/Tourism",
-  "name": "tour-app",
+  "homepage": "https://Zeyaddn.github.io/TravelSphere",
+  "name": "travelsphere",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview"
-}
-,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "axios": "^1.7.9",
