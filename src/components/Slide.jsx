@@ -1,4 +1,4 @@
-
+import slide from "/images/slide.webp"
 
 const AboutSection = () => {
   return (
@@ -7,7 +7,7 @@ const AboutSection = () => {
       
         <div className="col-md-6">
           <img
-            src="/images/slide.webp"
+            src={slide}
             className="img-fluid rounded"
             loading="lazy"
             alt="Beach"

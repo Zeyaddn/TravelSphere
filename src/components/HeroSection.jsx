@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaSearch, FaMapMarkerAlt, FaCalendarAlt, FaUser } from "react-icons/fa";
 
+import sec from "/images/hero.webp"
+
 const HeroSection = () => {
   const [destinationFrom, setDestinationFrom] = useState("Select Destination");
   const [destinationTo, setDestinationTo] = useState("Select Destination");
@@ -11,7 +13,7 @@ const HeroSection = () => {
     <div className="container position-relative hero" style={{ height: "70vh", marginTop: "150px" }}>
       <div className="container h-100">
         <img
-          src="/images/hero.webp"
+          src={sec}
           alt="Hero" loading="lazy"
           className="w-100 h-100 rounded-4 object-fit-cover "
         />
